@@ -110,6 +110,9 @@ img {
   border: 1px solid rgba(17, 17, 17, 0.1);
   border-radius: 10px;
 }
+.socials-light .socials-link {
+  background-color: #fff;
+}
 .socials-link:hover,
 .socials-link:focus {
   border: 1px solid rgba(253, 146, 34, 0.1);
@@ -147,6 +150,9 @@ img {
   color: #fd9222;
 }
 .secondary {
+  display: block;
+  margin: 0 auto;
+
   border-color: #fd9222;
   color: #111;
 }
