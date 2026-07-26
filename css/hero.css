@@ -35,6 +35,9 @@
 
   font-weight: 500;
   color: #fff;
+
+  transition: 300ms ease-out;
+  transition-property: color;
 }
 .hero-link:hover,
 .hero-link:focus {
@@ -49,9 +52,21 @@
   height: 38px;
   border-radius: 19px;
   background-color: #fff;
+
+  transition: 300ms ease-out;
+  transition-property: background-color;
 }
-.hero-link:hover > .hero-link-circle {
+.hero-link:hover > .hero-link-circle,
+.hero-link:focus > .hero-link-circle {
   background-color: #fd9222;
 }
 .hero-link-icon {
+  color: #fd9222;
+
+  transition: 300ms ease-out;
+  transition-property: color;
+}
+.hero-link:hover .hero-link-icon,
+.hero-link:focus .hero-link-icon {
+  color: #fff;
 }
