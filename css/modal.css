@@ -195,3 +195,28 @@
 .modal-form-link {
   color: #fd9222;
 }
+
+/* Form Validation */
+.modal-form-input:user-invalid,
+.modal-form-comment:user-invalid {
+  border-color: #e74a3b;
+}
+
+.modal-form-input:user-invalid + .modal-form-icon {
+  color: #e74a3b;
+}
+
+.error-icon {
+  position: absolute;
+  top: 50%;
+  right: 24px;
+  transform: translateY(-50%);
+
+  pointer-events: none;
+  opacity: 0;
+  transition: 300ms ease-out;
+  transition-property: opacity;
+}
+.modal-form-input:user-invalid ~ .error-icon {
+  opacity: 1;
+}
