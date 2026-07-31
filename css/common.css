@@ -180,8 +180,6 @@ img {
 /* Button */
 .btn {
   padding: 12px 26px;
-
-  /* padding: 14px 40px; */
   font-weight: 600;
 
   background-color: transparent;
@@ -191,6 +189,11 @@ img {
   transition: 300ms ease-out;
   transition-property: color, background-color, border-color;
 }
+@media only screen and (min-width: 768px) {
+  .btn {
+    padding: 14px 40px;
+  }
+}
 .btn-filled {
   color: #fff;
   background: #fd9222;
@@ -199,8 +202,6 @@ img {
 .btn-filled:focus {
   color: #fd9222;
   background-color: rgba(253, 146, 34, 0.1);
-}
-.btn-outlined {
 }
 .primary {
   border-color: #fff;
