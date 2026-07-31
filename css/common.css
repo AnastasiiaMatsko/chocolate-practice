@@ -37,9 +37,9 @@ img {
 }
 
 /* Helper class */
-.hide {
+/* .hide {
   display: none !important;
-}
+} */
 
 /* Base styles */
 .sr-only {
@@ -97,8 +97,8 @@ img {
   padding: 0 20px;
   margin: 0 auto;
 
-  outline: 2px solid red;
-  outline-offset: -2px;
+  /* outline: 2px solid red;
+  outline-offset: -2px; */
 }
 @media screen and (min-width: 768px) {
   .container {
