@@ -37,7 +37,8 @@
   overflow: hidden;
 }
 .bestsellers-ill {
-  max-width: 100%;
+  height: 464px;
+  object-fit: cover;
   border-radius: 16px 16px 0 0;
 }
 .bestsellers-caption {
