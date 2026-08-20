@@ -1,0 +1,120 @@
+/*Global style*/
+:root {
+  --text-base: #111;
+  --text-secondary: #404040;
+  --text-muted: rgba(17, 17, 17, 0.7);
+  --text-contrast-muted: rgba(255, 255, 255, 0.7);
+  --surface-main: #fff;
+  --surface-secondary: #fafafa;
+  --surface-contrast: #1e1823;
+  --surface-accent-light: #fcf1e0;
+  --surface-overlay-light: rgba(17, 17, 17, 0.1);
+  --surface-glass-effect: rgba(255, 255, 255, 0.1);
+  --action-primary: #fd9222;
+  --action-hover: rgba(253, 146, 34, 0.1);
+  --status-error: #e74a3b;
+  --element-decoration: #4c4c4c;
+  --element-disabled: rgba(17, 17, 17, 0.4);
+  --border-light: #eceded;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #111111;
+  background: #fafafa;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+/*Base styles*/
+.section {
+}
+.section-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.accent {
+  color: #fd9222;
+}
+.logo {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+.logo-icon {
+  fill: rgba(253, 146, 34, 0.1);
+  stroke-width: 2px;
+  stroke: #fd9222;
+}
+
+/*Socials styles*/
+.socials {
+}
+.socials-item {
+}
+.socials-link {
+}
+.socials-icon {
+}
+
+/* Button*/
+.btn {
+  font-weight: 600;
+
+  line-height: 1.29;
+
+  background-color: transparent;
+  border: none;
+}
+.btn-filled {
+  color: #fff;
+  background: var(--action-primary);
+}
+.btn-filled:hover,
+.btn-filled:focus {
+  color: var(--action-primary);
+  background: var(--action-hover);
+}
+.btn-outlined {
+}
+.primery {
+  color: #fff;
+}
+.primery:hover,
+.primery:focus {
+  color: var(--action-primary);
+}
+.secondary {
+  color: #111;
+}
+.secondary:hover,
+.secondary:focus {
+  color: var(--surface-main);
+  background: var(--action-primary);
+}

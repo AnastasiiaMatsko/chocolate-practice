@@ -1,0 +1,17 @@
+.benefits {
+  background: var(--surface-contrast);
+}
+
+.benefits-list {
+}
+.benefits-item {
+}
+.benefits-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33%;
+  color: var(--surface-main);
+}
+.benefits-text {
+  color: var(--text-contrast-muted);
+}
